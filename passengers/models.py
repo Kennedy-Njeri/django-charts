@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-
+"""Passenger model"""
 class Passenger(models.Model):
     MALE = 'M'
     FEMALE = 'F'

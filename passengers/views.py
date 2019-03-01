@@ -5,7 +5,7 @@ from django.db.models import Count, Q
 
 
 
-
+"""ticket class view"""
 def ticket_class_view(request):
     dataset = Passenger.objects \
         .values('ticket_class') \
